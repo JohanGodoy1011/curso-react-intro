@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      maxHeight: {
+        'screen-lg': '70vh', // Ajusta el valor según lo necesario
+      },
+    },
   },
   plugins: [],
 }
